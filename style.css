@@ -1,6 +1,7 @@
 body, html, #app {
     height: 100%;
 }
+
 body {
     font-family: 'Poppins', sans-serif;
     background-color: #9bf6ff;
@@ -9,7 +10,6 @@ body {
 
 body li {
     margin: 20px ;
-
 }
 
 #app p {
@@ -48,8 +48,7 @@ body li {
     transform: scale(120%);
 }
 
-/* homepage */
-
+/* Homepage Styles */
 
 .homepage h2 {
     font-size: 0.8em;
@@ -64,7 +63,7 @@ body li {
     transform: scale(120%);
 }
 
-/* Todo list */
+/* Todo List Styles */
 
 .todolist ul{
     list-style: none;
@@ -112,4 +111,3 @@ body li {
         font-size: 2em;
     }
 }
-

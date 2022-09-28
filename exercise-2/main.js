@@ -2,19 +2,19 @@ Vue.createApp({
     data() {
         return {
             items: [
-                "Try this program :D",
-                "Drink water",
-                "Smile"
+                'Try this program :D',
+                'Drink water',
+                'Smile'
             ]
         }
     },
     methods:{
         newItem(event){
-            var text = event.target.value
-            if (text !== '' & !/^\s*$/.test(text)){
+            var text = event.target.value.trim()
+            if (text !== ''){
                 this.items.push(text)
-                event.target.value = ''
             }
+            event.target.value = ''
         },
         removeItem(text){
             var index_to_delete = this.items.indexOf(text)

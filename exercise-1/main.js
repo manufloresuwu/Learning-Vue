@@ -14,7 +14,7 @@ Vue.createApp({
                 this.otherLanguage = 'In English'
             } else {
                 this.greeting = 'Hello!'
-                this.otherLanguage = "En Español"
+                this.otherLanguage = 'En Español'
             }
         }
     }
