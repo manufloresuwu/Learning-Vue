@@ -4,7 +4,7 @@ body, html, #app {
 body {
     font-family: 'Poppins', sans-serif;
     background-color: #9bf6ff;
-    color: #a0c4ff;
+    color: #5e239d;
 }
 
 body li {
@@ -34,7 +34,7 @@ body li {
 
 #app button{
     color: #ffadad;
-    background: #ffc6ff;
+    background: #f61067;
     border: 0;
     font-size: 0.7em;
     padding: 10px 20px;
@@ -44,7 +44,7 @@ body li {
 
 #app button:hover {
     cursor: pointer;
-    background: #caffbf;
+    background: #0a1128;
     transform: scale(120%);
 }
 
@@ -85,7 +85,7 @@ body li {
 }
 
 .todolist ul div:hover{
-    background-color: #ffc6ff;
+    background-color: #f61067;
     cursor: pointer;
 }
 
@@ -93,8 +93,8 @@ body li {
     font-size: 0.6em;
     background-color: #9bf6ff;
     border: 0;
-    border-bottom: #a0c4ff 2px solid;
-    color: #ffc6ff;
+    border-bottom: #5e239d 2px solid;
+    color: #f61067;
 }
 
 .todolist #newtask:focus {
