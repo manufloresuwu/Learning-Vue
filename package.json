@@ -1,0 +1,22 @@
+{
+  "name": "learning-vue",
+  "version": "1.0.0",
+  "description": "This webpage are exercises that shows my little steps learning the javascript framework Vue.",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manufloresuwu/Learning-Vue.git"
+  },
+  "author": "Manuela Flores <flores.morales.manuela@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/manufloresuwu/Learning-Vue/issues"
+  },
+  "homepage": "https://github.com/manufloresuwu/Learning-Vue#readme",
+  "dependencies": {
+    "vue": "^3.2.40"
+  }
+}
